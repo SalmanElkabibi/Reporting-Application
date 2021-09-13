@@ -22,6 +22,7 @@ import psutil
 from selenium.webdriver.firefox.options import Options as f_Options
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 from apscheduler.schedulers.blocking import BlockingScheduler
+from apscheduler.triggers import cron
 
 
 
@@ -806,7 +807,8 @@ def launch_schedule(y):
         h = y['schedule_time'].split(':')[0]
         m = y['schedule_time'].split(':')[1]
         sched = BlockingScheduler()
-        sched.add_job(func=launch,args=[y],trigger='cron',start_date=y['schedule_date'],hour=h,minute=m)
+        trigger = cron.CronTrigger(start_date=y['schedule_date'], hour=h, minute=m)
+        sched.add_job(func=launch,args=[y],trigger=trigger)
         sched.start()
     except Exception as e:
         print(e)

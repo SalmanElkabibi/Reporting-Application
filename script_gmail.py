@@ -21,6 +21,7 @@ from selenium.webdriver.firefox.options import Options as f_Options
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from apscheduler.schedulers.blocking import BlockingScheduler
+from apscheduler.triggers import cron
 
 start_time = time.time()
 
@@ -224,7 +225,18 @@ def change_password_gmail(email,password,recovery,newpassword,driver):
     cp.send_keys(Keys.RETURN)
     time.sleep(5)
 
+def click_on_more_actions():
+    more_actions = WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.XPATH, "//div[@aria-label='More']")))
+    more_actions.click()
+    time.sleep(random.uniform(2,3))
+    more_actions.click()
 
+def scroll(e):
+    verical_ordinate = 50
+    for i in range(0, 400):
+        driver.execute_script("arguments[0].scrollTop = arguments[1]", e, verical_ordinate)
+        verical_ordinate += 1
 
 def init_browser_gmail(ip,port,p_user,p_password,browsers,hide):
 
@@ -697,9 +709,11 @@ def launch_gmail_schedule(y):
         h = y['schedule_time'].split(':')[0]
         m = y['schedule_time'].split(':')[1]
         sched = BlockingScheduler()
-        sched.add_job(func=launch_gmail, args=[y], trigger='cron', start_date=y['schedule_date'], hour=h, minute=m)
+        trigger = cron.CronTrigger(start_date=y['schedule_date'], hour=h, minute=m)
+        sched.add_job(func=launch_gmail, args=[y], trigger=trigger)
         sched.start()
-    except:
+    except Exception as e:
+        print(e)
         launch_gmail(y)
     return redirect(url_for('.interface_gmail', acc=acc, subject=subject, n=n, link=link, domain=domain))
 

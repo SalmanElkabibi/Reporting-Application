@@ -23,7 +23,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import schedule
 from apscheduler.schedulers.blocking import BlockingScheduler
 from flask_apscheduler import APScheduler
-
+from apscheduler.triggers import cron
 
 start_time = time.time()
 username = 'SALMAN ELKABIBI'
@@ -748,7 +748,8 @@ def launch_yahoo_schedule(y):
         h = y['schedule_time'].split(':')[0]
         m = y['schedule_time'].split(':')[1]
         sched = BlockingScheduler()
-        sched.add_job(func=launch_yahoo, args=[y], trigger='cron', start_date=y['schedule_date'], hour=h, minute=m)
+        trigger = cron.CronTrigger(start_date=y['schedule_date'], hour=h, minute=m)
+        sched.add_job(func=launch_yahoo, args=[y], trigger=trigger)
         sched.start()
     except Exception as e:
         print('[Exception :(]',e)
