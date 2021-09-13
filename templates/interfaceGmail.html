@@ -29,6 +29,52 @@
             background-color: white;
             margin-right: 8px;
         }
+        .switch {
+        position: relative;
+        display: inline-block;
+        width: 45px;
+        height: 23px;
+        }
+
+        .switch input {
+        display: none;
+        }
+
+        .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #dedede;
+        border-radius: 40px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        }
+
+        .slider:before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        background: #fff;
+        border-radius: 50%;
+        left: 4px;
+        bottom: 4px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        }
+
+        input:checked + .slider {
+        background: rgb(7, 124, 233);
+        }
+
+        input:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+        -moz-transform: translateX(20px);
+        transform: translateX(20px);
+        }
     </style>
 </head>
 <body style="background-color: rgb(61, 60, 60);">
@@ -41,9 +87,45 @@
     <div class="card"> 
         <div class="card-header text-center bg-dark ">
             <strong style="color: white;"> Reporting App For Gmail v0.1</strong>
+            <button class="btn btn-light" style="float: right !important;" data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule</button>
         </div> 
         <div class="card-body" style="background-color: rgb(41, 43, 49);">
             <form action="/gmail" method="POST" class="row g-3">
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Schedule</h5>
+                        
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                        <div class="form-check form-switch">
+                            <!-- <input class="form-check-input" type="checkbox" name="checkbox_schedule" id="flexSwitchCheckChecked"> -->
+                            <label class="switch">
+                                <input class="form-check-input" type="checkbox" name="checkbox_schedule" id="flexSwitchCheckChecked">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="input-group mb-3">
+                                    <input id="schedule1" type="date" name="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" disabled>
+                                    </div>                 
+                                    <div class="input-group mb-3">
+                                    <input id="schedule2" type="time" name="time" class="form-control " placeholder="Minute" aria-describedby="basic-addon2" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Done</button>
+                    
+                        </div>
+                    
+                    </div>
+                    </div>
+                </div>
                 <div class="col-6">
                         <div class="mb-3 w-100">
                             <label for="exampleFormControlTextarea1"><strong>Accounts</strong></label>
@@ -223,7 +305,39 @@
                                 }
 
                                 });
-                            });       
+                            }); 
+                            document.addEventListener('DOMContentLoaded', function() {
+                            var checkboxes = document.querySelectorAll('input[id=flexSwitchCheckChecked]');
+                                for (var checkbox of checkboxes)
+                                {
+                                    checkbox.addEventListener('change', function(event)
+                                    {   
+                                        if (event.target.checked) {
+                                            document.getElementById('schedule1').disabled = false
+                                            document.getElementById('schedule2').disabled = false
+                                        }
+                                        else {
+                                            document.getElementById('schedule1').disabled = true
+                                            document.getElementById('schedule2').disabled = true
+                                            document.getElementById('schedule1').value = ''
+                                            document.getElementById('schedule2').value = ''
+                                        }
+                                    });
+                                    
+                                }
+                                
+                            }, false);
+                            (function($) {
+                                $(document).ready(function() {
+                                    var slider = $("#range"),
+                                    output = $("#output");
+
+                                    output.text(slider.val());
+                                    slider.on("input", function() {
+                                    output.text(slider.val());
+                                    });
+                                });
+                                })(jQuery);      
                         </script>
                         
                 </div>
