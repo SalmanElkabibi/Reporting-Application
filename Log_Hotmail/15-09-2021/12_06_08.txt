@@ -1,0 +1,3 @@
+15-09-2021 12:06:08 Email : salmane.madrid@hotmail.fr -- task : Login -- Status : Success
+15-09-2021 12:06:35 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Error 
+15-09-2021 12:06:44 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Error 
