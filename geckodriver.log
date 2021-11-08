@@ -15736,3 +15736,246 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 [Child 10540, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragonExiting due to channel error.
+.\firefox_driver\geckodriver.exe: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver.exe [FLAGS] [OPTIONS]
+
+For more information try --help
+
+.\firefox_driver\geckodriver.exe: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver.exe [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1636379177037	geckodriver	INFO	Listening on 127.0.0.1:61377
+1636379180832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "61378" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileHAYBtV"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1636379183580	Marionette	INFO	Listening on port 61385
+1636379184017	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636379212684	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379212956	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379213239	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379213369	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221636367479397%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1636379226831	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379227098	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379227385	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379227394	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379231390	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379231663	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379231923	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379231934	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379365849	geckodriver	INFO	Listening on 127.0.0.1:61521
+1636379369641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "61522" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofile03xwbK"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1636379370960	Marionette	INFO	Listening on port 61528
+1636379371179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636379400235	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379400488	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379400770	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379400898	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379407745	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221636367479397%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1636379407993	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379408259	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379408265	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379415858	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379416127	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379416381	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379416386	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379626465	geckodriver	INFO	Listening on 127.0.0.1:61717
+1636379630261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "61718" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofilem4ErHR"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1636379631587	Marionette	INFO	Listening on port 61724
+1636379631810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636379660312	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221636367479397%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1636379660586	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379660871	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379661016	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379673359	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379673626	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379673908	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379673918	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379677906	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379678188	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379678451	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379678458	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379683233	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379843376	geckodriver	INFO	Listening on 127.0.0.1:61871
+1636379847180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "61872" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofile1J5bI7"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1636379848544	Marionette	INFO	Listening on port 61879
+1636379848702	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221636367479397%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1636379877609	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379877882	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379878134	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379878277	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379885972	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379886252	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379886535	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379886587	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+[Child 7068, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7068, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1636379900860	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379901134	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379901416	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379901425	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+[Parent 17312, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1636379910113	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379910368	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379910647	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636379910693	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381443389	geckodriver	INFO	Listening on 127.0.0.1:62616
+1636381447194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "62617" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileWnnEhm"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1636381448678	Marionette	INFO	Listening on port 62622
+1636381448740	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221636367479397%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1636381476922	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381477201	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381477485	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381477561	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381487013	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381487267	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381487573	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381487620	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+[Parent 13704, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21008, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21008, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1636381541214	geckodriver	INFO	Listening on 127.0.0.1:62747
+1636381545034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "62748" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileQip1hk"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1636381546478	Marionette	INFO	Listening on port 62754
+1636381546573	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221636367479397%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1636381574618	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381574873	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381575151	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381575305	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381585087	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381585354	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381585637	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1636381585680	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+Exiting due to channel error.

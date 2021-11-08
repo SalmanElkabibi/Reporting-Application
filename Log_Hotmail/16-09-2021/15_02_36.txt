@@ -1,0 +1,6 @@
+16-09-2021 15:02:36 Email : mcteatewetwc@hotmail.com -- task : Login -- Status : Success
+16-09-2021 15:03:15 Email : mcteatewetwc@hotmail.com -- Task : offer_click_inbox -- Status : Success 
+16-09-2021 15:03:22 Email : mcteatewetwc@hotmail.com -- Task : flag -- Status : Error 
+16-09-2021 15:03:24 Email : mcteatewetwc@hotmail.com -- Task : archive -- Status : Success 
+16-09-2021 15:03:33 Email : mcteatewetwc@hotmail.com -- Task : offer_click_inbox -- Status : Error 
+16-09-2021 15:03:39 Email : mcteatewetwc@hotmail.com -- Task : flag -- Status : Success 
