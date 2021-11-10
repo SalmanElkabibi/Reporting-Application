@@ -18736,9 +18736,3 @@ JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.j
 JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
 1636557500392	Marionette	INFO	Listening on port 63387
 1636557500596	Marionette	WARN	TLS certificate errors will be ignored for this session
-1636557745192	geckodriver	INFO	Listening on 127.0.0.1:63544
-1636557748983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "63545" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofile9NiQWd"
-JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
-JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
-1636557750417	Marionette	INFO	Listening on port 63551
-1636557750532	Marionette	WARN	TLS certificate errors will be ignored for this session
