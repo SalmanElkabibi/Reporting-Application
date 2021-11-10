@@ -29,6 +29,52 @@
             background-color: white;
             margin-right: 8px;
         }
+        .switch {
+        position: relative;
+        display: inline-block;
+        width: 45px;
+        height: 23px;
+        }
+
+        .switch input {
+        display: none;
+        }
+
+        .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #dedede;
+        border-radius: 40px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        }
+
+        .slider:before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        background: #fff;
+        border-radius: 50%;
+        left: 4px;
+        bottom: 4px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        }
+
+        input:checked + .slider {
+        background: rgb(7, 124, 233);
+        }
+
+        input:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+        -moz-transform: translateX(20px);
+        transform: translateX(20px);
+        }
     </style>
 </head>
 <body style="background-color: rgb(61, 60, 60);">
@@ -37,154 +83,170 @@
         <a id="choice2" style="background-color: red; color: white;" href="/gmail">Gmail</a>
         <a id="choice3" href="/yahoo">Yahoo</a>
     </div>
-<div style="padding-top: 5px;" class="container" style="margin-top: px">
+<div style="padding-top: 5px;" class="container" style="margin-top: 50px">
     <div class="card"> 
-        <div class="card-header text-center bg-dark">
+        <div class="card-header text-center bg-dark ">
             <strong style="color: white;"> Reporting App For Gmail v0.1</strong>
+            <button class="btn btn-light" style="float: right !important;" data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule</button>
         </div> 
         <div class="card-body" style="background-color: rgb(41, 43, 49);">
-            <form action="#" method="POST" class="row g-3">
-                <div class="col-6">
-                    <div class="mb-3 w-100">
-                        <label for="exampleFormControlTextarea1"><strong>Accounts</strong></label>
-                        <textarea class="form-control" name="accounts" id="exampleFormControlTextarea1" rows="4" required>{{acc}}</textarea>
+            <form action="/gmail" method="POST" class="row g-3" enctype="multipart/form-data">
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Schedule</h5>
+                        
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                        <div class="form-check form-switch">
+                            <!-- <input class="form-check-input" type="checkbox" name="checkbox_schedule" id="flexSwitchCheckChecked"> -->
+                            <label class="switch">
+                                <input class="form-check-input" type="checkbox" name="checkbox_schedule" id="flexSwitchCheckChecked">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="input-group mb-3">
+                                    <input id="schedule1" type="date" name="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" disabled>
+                                    </div>                 
+                                    <div class="input-group mb-3">
+                                    <input id="schedule2" type="time" name="time" class="form-control " placeholder="Minute" aria-describedby="basic-addon2" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Done</button>
+                    
+                        </div>
+                    
                     </div>
-                    <div class="mb-3 w-100">
-                      <label for="subject" class="form-label"><strong>Subject</strong></label>
-                      <input type="text" name="subject" class="form-control" id="subject" value="{{subject}}" required>
                     </div>
-                    <div class="mb-3 w-100">
-                      <label for="link" class="form-label"><strong>Link</strong></label>
-                      <input type="text" name="link" class="form-control" id="link" value="{{link}}" >
-                    </div>
-                    <div class="mb-3 w-100">
-                        <label for="domain" class="form-label"><strong>Domain</strong></label>
-                        <input type="text" name="domain" class="form-control" id="domain" value="{{domain}}" >
-                    </div>
-                    <div class="mb-3 w-100">
-                        <label for="threads" class="form-label"><strong>Threads</strong></label>
-                        <input type="text" name="threads" class="form-control" id="threads" value="{{n}}" required>
-                    </div>
-        
                 </div>
                 <div class="col-6">
-                    <div class="mb-3">
-                        <div class="table-responsive">
-                        <table class="table borderless">
-                        <tbody>
-                          <tr>
-                            <th scope="row">Browsers</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="Radio" id="flexRadioDefault3" value="comodo" checked>
-                                    <label class="form-check-label" for="flexRadioDefault3">Comodo</label>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" name="box" id="inlineCheckbox8" value="hide_browser" >
-                                    <label class="form-check-label" for="inlineCheckbox8">Hide Browser</label>
-                                </div>
-                            </td>
-                            <td>
-                                <!--
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="Radio" id="flexRadioDefault1" value="chrome" >
-                                    <label class="form-check-label" for="flexRadioDefault1">Google Chrome</label>
-                                </div>
-                                -->
-                            </td>
-                            <td>
-                                <!--
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="Radio" id="flexRadioDefault2" value="firefox" >
-                                    <label class="form-check-label" for="flexRadioDefault2">Firefox</label>
-                                </div>
-                                -->
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    </div>
-                    
-                   
-                    <div class="mb-3">
-                        <div class="table-responsive">
-                            <table class="table borderless">
-                            <tbody>
-                            <tr>
-                                <th scope="row">Tasks</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox2" value="archive" >
-                                        <label class="form-check-label" for="inlineCheckbox2">Archive</label>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox3" value="reply" >
-                                        <label class="form-check-label" for="inlineCheckbox3">Reply</label>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox4" value="mark_as_not_spam" >
-                                        <label class="form-check-label" for="inlineCheckbox4">Mark as not Spam</label>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox5" value="star" >
-                                        <label class="form-check-label" for="inlineCheckbox5">Star</label>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox6" value="mark_as_important" >
-                                        <label class="form-check-label" for="inlineCheckbox6">Mark as important</label>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox9" value="click_offer" >
-                                        <label class="form-check-label" for="inlineCheckbox9">Click Offer</label>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox7" value="login" >
-                                        <label class="form-check-label" for="inlineCheckbox7">Login Only</label>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox10" value="change_password" >
-                                        <label class="form-check-label" for="inlineCheckbox10">Change Password</label>
-                                    </div>
-                                </td>
-                                
-                            </tr>
-                            </tbody>
-                            </table>
-                        </div>
-                        <div style="height: 65px;">
-                            <div id='tasks'></div>
-                            <div id='reply_msg'></div>
+                        <div class="mb-3 w-100">
+                            <label for="exampleFormControlTextarea1"><strong>Accounts</strong></label>
+                            <textarea class="form-control" name="accounts" id="exampleFormControlTextarea1" rows="25" required>{{acc}}</textarea>
                         </div> 
-                    </div>
+                        <div style="height: 65px;">
+                            <div id='domains'></div>  
+                        </div>
+                         
+                </div>
+                <div class="col-6">
+                        <div class="mb-3 w-100">
+                            <label for="subject" class="form-label"><strong>Subject</strong></label>
+                            <input type="text" name="subject" class="form-control" id="subject" value="{{subject}}" required>
+                        </div>
+                        <div class="mb-3 w-100">
+                            <label for="link" class="form-label"><strong>Link</strong></label>
+                            <input type="text" name="link" class="form-control" id="link" value="{{link}}" >
+                        </div>
+                        <div class="mb-3 w-100">
+                            <label for="domain" class="form-label"><strong>Domain</strong></label>
+                            <input type="text" name="domain" class="form-control" id="domain" value="{{domain}}" >
+                        </div>
+                        <div class="mb-3 w-100">
+                            <label for="threads" class="form-label"><strong>Threads</strong></label>
+                            <input type="text" name="threads" class="form-control" id="threads" value="{{n}}" required>
+                        </div>
+                        <div class="mb-3">
+                            <div class="mb-3">
+                                <label for="browsers" style="color: white;"><strong>Browsers</strong></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Radio" id="flexRadioDefault3" value="comodo" checked>
+                                <label class="form-check-label" for="flexRadioDefault3">Comodo</label>
+                            </div>
+                        
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="box" id="inlineCheckbox8" value="hide_browser" >
+                                <label class="form-check-label" for="inlineCheckbox8">Hide Browser</label>
+                            </div>
+                        </div>
+                        
+                       
+                        <div class="mb-3">
+                            <div class="table-responsive">
+                                <table class="table borderless">
+                                <tbody>
+                                <tr>
+                                    <th scope="row">Tasks</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox2" value="archive" >
+                                            <label class="form-check-label" for="inlineCheckbox2">Archive</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox3" value="reply" >
+                                            <label class="form-check-label" for="inlineCheckbox3">Reply</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox4" value="mark_as_not_spam" >
+                                            <label class="form-check-label" for="inlineCheckbox4">Mark as not Spam</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox5" value="star" >
+                                            <label class="form-check-label" for="inlineCheckbox5">Star</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox6" value="mark_as_important" autocomplete="off"/>
+                                            <label class="form-check-label" for="inlineCheckbox6">Mark as important</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox9" value="click_offer" >
+                                            <label class="form-check-label" for="inlineCheckbox9">Click Offer</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox7" value="login" >
+                                            <label class="form-check-label" for="inlineCheckbox7">Login Only</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox10" value="change_password" >
+                                            <label class="form-check-label" for="inlineCheckbox10">Change Password</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox11" value="add_domains" >
+                                            <label class="form-check-label" for="inlineCheckbox11">Add Domains</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </div>
+                            <div style="height: 65px;">
+                                <div id='tasks'></div>
+                                <div id='reply_msg'></div>
+                            </div> 
+                        </div>
                         
                         <script>
                             document.addEventListener('DOMContentLoaded', function() {
@@ -208,19 +270,19 @@
                             tasks = []
                                 for (var checkbox of checkboxes)
                                 {
-                                    checkbox.addEventListener('change', function(event)
+                                    checkbox.addEventListener('click', function(event)
                                     {   
                                         if (event.target.checked) {
                                             tasks.push(`${event.target.value}`)
                                             console.log(tasks)
                                             document.getElementById('tasks').innerHTML = '<div style="color: white;"> <b style="color: red;"> Order : </b>'+tasks.join("    -    ")+' </div>  <input type="text" name="tasks" class="form-control" value = '+tasks+' id="tasks"  hidden> <br>'
-                                            localStorage.checked = true
+                                            
                                         }
                                         else {
                                             tasks = tasks.filter((task)=>(task !== event.target.value))
                                             console.log(tasks)
                                             document.getElementById('tasks').innerHTML = '<div style="color: white;"> <b style="color: red;"> Order : </b> '+tasks.join("    -    ")+' </div>  <input type="text" name="tasks" class="form-control" value = '+tasks+' id="tasks"  hidden> <br>'
-                                            localStorage.checked = false
+            
                                         }
                                     });
                                     
@@ -228,16 +290,33 @@
                                 
                             }, false);
                             document.addEventListener('DOMContentLoaded', function() {
-                            var checkboxes = document.querySelectorAll('input[id=inlineCheckbox7]');
+                            var checkboxes = document.querySelectorAll('input[id=inlineCheckbox3]');
                                 for (var checkbox of checkboxes)
                                 {
-                                    checkbox.addEventListener('change', function(event)
+                                    checkbox.addEventListener('click', function(event)
                                     {   
                                         if (event.target.checked) {
                                             document.getElementById('reply_msg').innerHTML = '<label for="reply_msg" style="color: white;"><strong>Reply Message</strong></label> <input type="text" name="reply_msg" class="form-control"  id="reply_msg" > <br>'
                                         }
                                         else {
                                             document.getElementById('reply_msg').innerHTML = ''
+                                        }
+                                    });
+                                    
+                                }
+                                
+                            }, false);
+                            document.addEventListener('DOMContentLoaded', function() {
+                            var checkboxes = document.querySelectorAll('input[id=inlineCheckbox11]');
+                                for (var checkbox of checkboxes)
+                                {
+                                    checkbox.addEventListener('click', function(event)
+                                    {   
+                                        if (event.target.checked) {
+                                            document.getElementById('domains').innerHTML = '<label for="domains" style="color: white;"><strong>Add Domains</strong></label> <input type="file" name="domains_file" class="form-control"  id="domains_file" > <br>'
+                                        }
+                                        else {
+                                            document.getElementById('domains').innerHTML = ''
                                         }
                                     });
                                     
@@ -254,30 +333,52 @@
                                 }
 
                                 });
-                            });       
+                            }); 
+                            document.addEventListener('DOMContentLoaded', function() {
+                            var checkboxes = document.querySelectorAll('input[id=flexSwitchCheckChecked]');
+                                for (var checkbox of checkboxes)
+                                {
+                                    checkbox.addEventListener('change', function(event)
+                                    {   
+                                        if (event.target.checked) {
+                                            document.getElementById('schedule1').disabled = false
+                                            document.getElementById('schedule2').disabled = false
+                                        }
+                                        else {
+                                            document.getElementById('schedule1').disabled = true
+                                            document.getElementById('schedule2').disabled = true
+                                            document.getElementById('schedule1').value = ''
+                                            document.getElementById('schedule2').value = ''
+                                        }
+                                    });
+                                    
+                                }
+                                
+                            }, false);
+                            (function($) {
+                                $(document).ready(function() {
+                                    var slider = $("#range"),
+                                    output = $("#output");
+
+                                    output.text(slider.val());
+                                    slider.on("input", function() {
+                                    output.text(slider.val());
+                                    });
+                                });
+                                })(jQuery);      
                         </script>
                         
                 </div>
                 <div class="d-flex justify-content-center" style="padding-top: 50px;">
+                    
                     <div><button type="submit" class="btn btn-success btn-lg" id="submitBtn" style="padding-left: 25px; padding-right: 25px;">Start</button></div>
-                    <div><a href="/resumeGmail" class="btn btn-warning btn-lg" style="padding-left: 25px; padding-right: 25px; margin-left: 20px; margin-right: 20px;">Resume</a></div>
+                    <div><a href="/resumeGmail" class="btn btn-warning btn-lg" style="padding-left: 25px; padding-right: 25px; margin-left: 20px; margin-right: 20px;">resume</a></div>
                     <div><a href="/stopGmail" class="btn btn-danger btn-lg" style="padding-left: 25px; padding-right: 25px;">Stop</a></div>
                 </div>
             </form>
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

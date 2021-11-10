@@ -90,7 +90,7 @@
             <button class="btn btn-light" style="float: right !important;" data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule</button>
         </div> 
         <div class="card-body" style="background-color: rgb(41, 43, 49);">
-            <form action="/gmail" method="POST" class="row g-3">
+            <form action="/gmail" method="POST" class="row g-3" enctype="multipart/form-data">
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -130,7 +130,11 @@
                         <div class="mb-3 w-100">
                             <label for="exampleFormControlTextarea1"><strong>Accounts</strong></label>
                             <textarea class="form-control" name="accounts" id="exampleFormControlTextarea1" rows="25" required>{{acc}}</textarea>
-                        </div>    
+                        </div> 
+                        <div style="height: 65px;">
+                            <div id='domains'></div>  
+                        </div>
+                         
                 </div>
                 <div class="col-6">
                         <div class="mb-3 w-100">
@@ -226,7 +230,14 @@
                                             <label class="form-check-label" for="inlineCheckbox10">Change Password</label>
                                         </div>
                                     </td>
-                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox11" value="add_domains" >
+                                            <label class="form-check-label" for="inlineCheckbox11">Add Domains</label>
+                                        </div>
+                                    </td>
                                 </tr>
                                 </tbody>
                                 </table>
@@ -289,6 +300,23 @@
                                         }
                                         else {
                                             document.getElementById('reply_msg').innerHTML = ''
+                                        }
+                                    });
+                                    
+                                }
+                                
+                            }, false);
+                            document.addEventListener('DOMContentLoaded', function() {
+                            var checkboxes = document.querySelectorAll('input[id=inlineCheckbox11]');
+                                for (var checkbox of checkboxes)
+                                {
+                                    checkbox.addEventListener('click', function(event)
+                                    {   
+                                        if (event.target.checked) {
+                                            document.getElementById('domains').innerHTML = '<label for="domains" style="color: white;"><strong>Add Domains</strong></label> <input type="file" name="domains_file" class="form-control"  id="domains_file" > <br>'
+                                        }
+                                        else {
+                                            document.getElementById('domains').innerHTML = ''
                                         }
                                     });
                                     
