@@ -1,0 +1,5 @@
+08-11-2021 16:57:54 Email : lomokati@gmail.com -- task : Login -- Status : Success
+08-11-2021 16:58:14 Email : lomokati@gmail.com -- Task : click_offer -- Status : Success 
+08-11-2021 16:58:23 Email : lomokati@gmail.com -- Task : click_offer -- Status : Success 
+08-11-2021 16:58:43 Email : lomokati@gmail.com -- Task : click_offer -- Status : Success 
+08-11-2021 16:58:53 Email : lomokati@gmail.com -- Task : click_offer -- Status : Success 
