@@ -1,12 +1,0 @@
-15-09-2021 14:48:12 Email : salmanelkabibi@yahoo.com -- task : Login -- Status : Success
-15-09-2021 14:48:22 Email : salmanelkabibi@yahoo.com -- Task : Mark as not spam -- Status : Success 
-15-09-2021 14:48:49 Email : salmanelkabibi@yahoo.com -- Task : filter_as_inbox -- Status : Success 
-15-09-2021 14:48:57 Email : salmanelkabibi@yahoo.com -- Task : archive -- Status : Success 
-15-09-2021 14:49:21 Email : salmanelkabibi@yahoo.com -- Task : filter_as_inbox -- Status : Success 
-15-09-2021 14:49:29 Email : salmanelkabibi@yahoo.com -- Task : archive -- Status : Success 
-15-09-2021 14:49:56 Email : salmanelkabibi@yahoo.com -- Task : filter_as_inbox -- Status : Success 
-15-09-2021 14:50:02 Email : salmanelkabibi@yahoo.com -- Task : archive -- Status : Success 
-15-09-2021 14:50:28 Email : salmanelkabibi@yahoo.com -- Task : filter_as_inbox -- Status : Success 
-15-09-2021 14:50:36 Email : salmanelkabibi@yahoo.com -- Task : archive -- Status : Success 
-15-09-2021 14:51:01 Email : salmanelkabibi@yahoo.com -- Task : filter_as_inbox -- Status : Success 
-15-09-2021 14:51:08 Email : salmanelkabibi@yahoo.com -- Task : archive -- Status : Success 

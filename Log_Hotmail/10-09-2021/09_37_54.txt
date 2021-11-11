@@ -1,5 +1,0 @@
-10-09-2021 09:37:54 Email : salmane.madrid@hotmail.fr -- task : Login -- Status : Success
-10-09-2021 09:38:27 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 09:38:41 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 09:38:54 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 09:39:05 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 

@@ -1,53 +1,0 @@
-10-09-2021 11:14:35 Email : salmane.madrid@hotmail.fr -- task : Login -- Status : Success
-10-09-2021 11:15:08 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:15:12 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:15:26 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:15:28 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:15:39 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:15:42 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:15:53 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:15:55 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:16:08 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:16:11 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:16:21 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:16:24 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:16:35 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:16:39 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:16:52 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:16:55 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:17:08 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:17:11 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:17:22 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:17:25 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:17:38 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:17:41 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:17:54 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:17:57 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:18:11 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:18:14 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:18:25 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:18:29 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:18:42 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:18:46 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:18:57 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:19:00 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:19:10 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:19:13 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:19:24 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:19:27 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:19:37 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:19:40 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:19:52 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:19:55 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:20:11 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:20:13 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:20:25 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:20:28 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:20:39 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:20:42 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:20:53 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:20:57 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:21:11 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:21:15 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
-10-09-2021 11:21:29 Email : salmane.madrid@hotmail.fr -- Task : categorize -- Status : Success 
-10-09-2021 11:21:31 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
