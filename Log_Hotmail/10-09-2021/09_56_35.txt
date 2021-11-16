@@ -1,0 +1,17 @@
+10-09-2021 09:56:35 Email : salmane.madrid@hotmail.fr -- task : Login -- Status : Success
+10-09-2021 09:57:08 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:57:21 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:57:34 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:57:48 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:58:02 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:58:14 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:58:28 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:58:41 Email : salmane.madrid@hotmail.fr -- Task : Spam to Inbox -- Status : Success 
+10-09-2021 09:58:57 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
+10-09-2021 09:59:08 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
+10-09-2021 09:59:15 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
+10-09-2021 09:59:24 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
+10-09-2021 09:59:35 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
+10-09-2021 09:59:45 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
+10-09-2021 09:59:53 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
+10-09-2021 10:00:03 Email : salmane.madrid@hotmail.fr -- Task : archive -- Status : Success 
