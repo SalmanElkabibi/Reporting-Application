@@ -127,8 +127,20 @@
                     </div>
                 </div>
                 <div class="col-6">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Radio1" id="flexRadioDefault5" value="accounts" onclick="checkComodo()" checked>
+                            <label class="form-check-label" for="flexRadioDefault5">Accounts</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Radio1" id="flexRadioDefault6" value="profiles" onclick="checkChrome()">
+                            <label class="form-check-label" for="flexRadioDefault6">Profiles</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <div id='create_profile'></div>  
+                        </div>
+                        <br><br>
                         <div class="mb-3 w-100">
-                            <label for="exampleFormControlTextarea1"><strong>Accounts</strong></label>
+                            <!-- <label for="exampleFormControlTextarea1"><strong>Accounts</strong></label> -->
                             <textarea class="form-control" name="accounts" id="exampleFormControlTextarea1" rows="25" required>{{acc}}</textarea>
                         </div> 
                         <div style="height: 65px;">
@@ -158,10 +170,13 @@
                                 <label for="browsers" style="color: white;"><strong>Browsers</strong></label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="Radio" id="flexRadioDefault3" value="comodo" checked>
+                                <input class="form-check-input" type="radio" name="Radio" id="flexRadioDefault3" value="comodo" onclick="checkAccounts()" checked>
                                 <label class="form-check-label" for="flexRadioDefault3">Comodo</label>
                             </div>
-                        
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Radio" id="flexRadioDefault4" value="chrome" onclick="checkProfiles()">
+                                <label class="form-check-label" for="flexRadioDefault4">Chrome</label>
+                            </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" name="box" id="inlineCheckbox8" value="hide_browser" >
                                 <label class="form-check-label" for="inlineCheckbox8">Hide Browser</label>
@@ -254,6 +269,28 @@
                             </div> 
                         </div>
                         
+                        <script>
+                            function checkComodo(){
+                                document.getElementById("flexRadioDefault3").checked = true;
+                                document.getElementById('create_profile').innerHTML = '';
+                                document.getElementById('exampleFormControlTextarea1').required = true
+                            }
+                            function checkChrome(){
+                                document.getElementById("flexRadioDefault4").checked = true;
+                                document.getElementById('create_profile').innerHTML = '<a href="https://accounts.google.com/signin/chrome/sync/identifier?ssp=1&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifDesktopChromeSync" target="_blank" class="btn btn-success ">Create Profile</a>'
+                                document.getElementById('exampleFormControlTextarea1').required = false
+                            }
+                            function checkAccounts(){
+                                document.getElementById("flexRadioDefault5").checked = true;
+                                document.getElementById('create_profile').innerHTML = '';
+                                document.getElementById('exampleFormControlTextarea1').required = true
+                            }
+                            function checkProfiles(){
+                                document.getElementById("flexRadioDefault6").checked = true;
+                                document.getElementById('create_profile').innerHTML = '<a href="https://accounts.google.com/signin/chrome/sync/identifier?ssp=1&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifDesktopChromeSync" target="_blank" class="btn btn-success ">Create Profile</a>'
+                                document.getElementById('exampleFormControlTextarea1').required = false
+                            }
+                        </script>
                         <script>
                             document.addEventListener('DOMContentLoaded', function() {
                             var hideboxes = document.querySelectorAll('input[type=checkbox][name=box]');

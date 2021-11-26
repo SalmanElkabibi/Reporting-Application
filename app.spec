@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['app.py'],
-             pathex=['C:\\Users\\SalmanELKABIBI\\OneDrive - MAVISTRO\\Bureau\\reporting_app_github\\Reporting-Application'],
+             pathex=[],
              binaries=[],
              datas=[('templates', 'templates'), ('paths', 'paths')],
              hiddenimports=[],
