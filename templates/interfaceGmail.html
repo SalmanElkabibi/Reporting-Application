@@ -274,21 +274,25 @@
                                 document.getElementById("flexRadioDefault3").checked = true;
                                 document.getElementById('create_profile').innerHTML = '';
                                 document.getElementById('exampleFormControlTextarea1').required = true
+                                document.getElementById('exampleFormControlTextarea1').hidden = false
                             }
                             function checkChrome(){
                                 document.getElementById("flexRadioDefault4").checked = true;
                                 document.getElementById('create_profile').innerHTML = '<a href="https://accounts.google.com/signin/chrome/sync/identifier?ssp=1&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifDesktopChromeSync" target="_blank" class="btn btn-success ">Create Profile</a>'
                                 document.getElementById('exampleFormControlTextarea1').required = false
+                                document.getElementById('exampleFormControlTextarea1').hidden = true
                             }
                             function checkAccounts(){
                                 document.getElementById("flexRadioDefault5").checked = true;
                                 document.getElementById('create_profile').innerHTML = '';
                                 document.getElementById('exampleFormControlTextarea1').required = true
+                                document.getElementById('exampleFormControlTextarea1').hidden = false
                             }
                             function checkProfiles(){
                                 document.getElementById("flexRadioDefault6").checked = true;
                                 document.getElementById('create_profile').innerHTML = '<a href="https://accounts.google.com/signin/chrome/sync/identifier?ssp=1&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifDesktopChromeSync" target="_blank" class="btn btn-success ">Create Profile</a>'
                                 document.getElementById('exampleFormControlTextarea1').required = false
+                                document.getElementById('exampleFormControlTextarea1').hidden = true
                             }
                         </script>
                         <script>

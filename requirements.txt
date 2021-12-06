@@ -4,3 +4,4 @@ psutil
 selenium
 apscheduler
 flask_apscheduler
+schedule
