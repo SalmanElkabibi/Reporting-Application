@@ -1,0 +1,50 @@
+	<div class="basesearch-view">
+		<div id="response-loading" role="progressbar" style="display: block;" class="mdc-linear-progress mdc-linear-progress--indeterminate" aria-label="Basesearch Progress Bar" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0">
+			<div class="mdc-linear-progress__buffer">
+			  <div class="mdc-linear-progress__buffer-bar"></div>
+			  <div class="mdc-linear-progress__buffer-dots"></div>
+			</div>
+			<div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+			  <span class="mdc-linear-progress__bar-inner"></span>
+			</div>
+			<div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+			  <span class="mdc-linear-progress__bar-inner"></span>
+			</div>
+		</div>
+		
+		<div class="basesearch-view__content">
+			<div class="wrapper">
+				
+
+				<div id="search-view" class="basesearch-view__search">
+					<p><span id="search-service-name"></span> is searching a valid Server to communicate with. This process can take a while depending on your Internet Speed. If you are being blocked by isp/School/government it might take a while to find valid Server to communicate with.</p>
+					<p id="basesearch-progress"></p>
+					<div style="text-align: center;">
+						<button id="basesearch-cancel-btn" class="mdc-button mdc-button--raised">
+							<span class="mdc-button__label">Cancel Search</span>
+						</button>
+					</div>
+				</div>
+
+				<div id="search-failed-view" class="basesearch-view__failed">
+
+					<p>It seems like our sites are blocked in your network. Please contact support or try later.</p>
+
+					<div class="basesearch-view__failed__button-container">
+						<button id="try-again-button" class="mdc-button mdc-button--raised">
+							<span class="mdc-button__label">Try again</span>
+						  </button>
+						
+					</div>
+					<div class="basesearch-view__failed__button-container">
+						<button id="contact-support-button" class="mdc-button mdc-button--raised">
+							<span class="mdc-button__label">Contact Support</span>
+						  </button>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+	</div>

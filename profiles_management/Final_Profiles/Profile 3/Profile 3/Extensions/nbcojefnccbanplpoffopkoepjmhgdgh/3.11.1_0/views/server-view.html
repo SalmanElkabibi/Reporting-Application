@@ -1,0 +1,116 @@
+<div class="mdc-dialog">
+    <div class="mdc-dialog__container">
+        <div class="mdc-dialog__surface" role="alertdialog" aria-modal="true" aria-labelledby="my-dialog-title"
+            aria-describedby="my-dialog-content">
+            <div class="mdc-dialog__content" id="my-dialog-content">
+                <p style="text-align: center;">Update required</p>
+                <div style="color: red;">Your version: <span id="your-version"></span></div>
+                <div style="color: #007aff;">New version: <span id="new-version"></span></div>
+            </div>
+            <div class="mdc-dialog__actions" id="update-sources">
+            </div>
+        </div>
+    </div>
+    <div class="mdc-dialog__scrim"></div>
+</div>
+
+
+<div class="mdc-snackbar" id="update-req-snackbar">
+    <div class="mdc-snackbar__surface" role="status" aria-relevant="additions">
+        <div class="mdc-snackbar__label" aria-atomic="false">
+            New update is available. Please update.
+        </div>
+        <div class="mdc-snackbar__actions" aria-atomic="true">
+            <button type="button" class="mdc-button mdc-snackbar__action" id="update-req-button">
+                <div class="mdc-button__ripple"></div>
+                <span class="mdc-button__label">Update</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="mdc-snackbar" id="blocked-snackbar" style="margin: 0 !important;
+position: absolute;
+top: 0px;">
+    <div class="mdc-snackbar__surface" role="status" aria-relevant="additions">
+        <div class="mdc-snackbar__label" aria-atomic="false">
+            <p>{tempBlockTitle}</p>
+            <span id="limit-info-remaining-time"></span>
+            <p>{tempBlockTextDontWait}</p>
+        </div>
+        <div class="mdc-snackbar__actions" aria-atomic="true">
+            <button type="button" class="mdc-button mdc-snackbar__action" id="blocked-upgrade-button">
+                <div class="mdc-button__ripple"></div>
+                <span class="mdc-button__label">Upgrade</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="server-view">
+
+    <div class="mdc-tab-bar" role="tablist">
+        <div class="mdc-tab-scroller">
+            <div class="mdc-tab-scroller__scroll-area">
+                <div class="mdc-tab-scroller__scroll-content">
+                    <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" id="mdc-tab-0">
+                        <span class="mdc-tab__content">
+
+                            <span class="mdc-tab__text-label">FREE</span>
+                        </span>
+                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                        </span>
+                        <span class="mdc-tab__ripple"></span>
+                    </button>
+                    <button class="mdc-tab" role="tab" tabindex="-1" id="mdc-tab-1">
+                        <span class="mdc-tab__content">
+                            <span class="mdc-tab__text-label">PREMIUM</span>
+                        </span>
+                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                        </span>
+                        <span class="mdc-tab__ripple"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="server-view__server-list">
+        <div id="free-serverlist" class="server-view__server-list__free-tab">
+            <ul class="mdc-list" tabindex="0" id="free-serverlist-ul"></ul>
+        </div>
+        <div id="premium-serverlist" class="server-view__server-list__premium-tab">
+            <ul class="mdc-list" tabindex="0" id="premium-serverlist-ul"></ul>
+        </div>
+    </div>
+    <div class="server-view__sort-panel">
+        <div class="server-view__sort-panel__options">
+            Sort by:
+            <span class="server-view__sort-panel__options__item" id="sort-by-best-server"
+                style="font-weight: bold; text-decoration: underline;">Best server</span> |
+            <span class="server-view__sort-panel__options__item" id="sort-by-country">Country name</span>
+        </div>
+    </div>
+    <div class="server-view__premium-expiration" id="expiration-date-container">
+        Premium expires on <span id="expiration-date"></span>
+    </div>
+    <div id="upgrade-button-container" class="server-view__upgrade-button-container">
+        <button class="mdc-button mdc-button--raised" id="upgrade-button">
+            <span class="mdc-button__label">Upgrade Your Account</span>
+        </button>
+
+    </div>
+
+    <div class="server-view__bottom">
+        <div class="server-view__icon-container" id="icon-bottom-container">
+        </div>
+        <div class="server-view__link-container">
+            <span class="server-view__link-container__item" id="account-button">Account</span>
+            <span class="server-view__link-container__item" id="open-support">Contact Support</span>
+            <span class="server-view__link-container__item" id="logout-button">Logout</span>
+        </div>
+    </div>
+
+
+</div>

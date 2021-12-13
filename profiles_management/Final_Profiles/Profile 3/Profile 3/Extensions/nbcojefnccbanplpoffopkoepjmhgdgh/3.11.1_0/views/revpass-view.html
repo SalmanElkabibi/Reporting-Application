@@ -1,0 +1,59 @@
+<div class="revpass-view" id="revpass-mode">
+    <div id="response-loading" role="progressbar" style="display: none;" class="mdc-linear-progress mdc-linear-progress--indeterminate" aria-label="Example Progress Bar" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0">
+        <div class="mdc-linear-progress__buffer">
+          <div class="mdc-linear-progress__buffer-bar"></div>
+          <div class="mdc-linear-progress__buffer-dots"></div>
+        </div>
+        <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+          <span class="mdc-linear-progress__bar-inner"></span>
+        </div>
+        <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+          <span class="mdc-linear-progress__bar-inner"></span>
+        </div>
+    </div>
+
+    <div class="revpass-view__container">
+        <div class="revpass-view__form">
+            <h1 style="text-align: center;">Account recovery</h1>
+            <label class="mdc-text-field mdc-text-field--outlined" id="email-field" style="width: 100%; margin: 10px 0px;">
+                <span class="mdc-notched-outline">
+                    <span class="mdc-notched-outline__leading"></span>
+                    <span class="mdc-notched-outline__notch">
+                        <span class="mdc-floating-label" id="email-label">Email</span>
+                    </span>
+                    <span class="mdc-notched-outline__trailing"></span>
+                </span>
+                <input type="email" id="email-input" class="mdc-text-field__input" aria-labelledby="email-label"
+                    required>
+
+            </label>
+            <div id="email-error" class="revpass-view__error-msg">
+                {RegisterErrorEmail}
+            </div>
+            <div class="revpass-view__response-error" id="response-error">
+
+            </div>
+
+            <div class="revpass-view__next-button">
+                <button class="mdc-button mdc-button--raised" id="forgot-pass-next">
+                    <span class="mdc-button__label">NEXT</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="revpass-view" id="revpass-success" style="display: none;">
+    <div class="revpass-view__container">
+        <div id="success-message" style="padding: 30px;"></div>
+    </div>
+</div>
+<div id="maintenance-mode" class="maintenance-mode">
+    <i class="material-icons maintenance-mode__close" id="maintenance-mode-close-icon">close</i>
+    <div class="maintenance-mode__container">
+      <div class="maintenance-mode__icon"><i class="material-icons">build</i></div>
+      <div id="maintenance-msg" class="maintenance-mode__message">
+  
+      </div>
+    </div>
+  </div>

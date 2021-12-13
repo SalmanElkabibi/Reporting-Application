@@ -20775,3 +20775,208 @@ JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.j
 JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
 1637760082926	Marionette	INFO	Listening on port 58806
 1637760083046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1639392616724	geckodriver	INFO	Listening on 127.0.0.1:52767
+1639392728790	geckodriver	INFO	Listening on 127.0.0.1:52826
+1639392805451	geckodriver	INFO	Listening on 127.0.0.1:52873
+1639392811965	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "52874" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileCryFJr"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.206.138/
+  is http scheme: http://0.0.206.138/
+ scheme is: http
+ aURI is : http://0.0.206.138/
+  is http scheme: http://0.0.206.138/1639392832465	geckodriver	INFO	Listening on 127.0.0.1:52959
+1639392839041	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "52960" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileYzhwdG"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+1639392892287	geckodriver	INFO	Listening on 127.0.0.1:53051
+1639392898926	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "53052" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileMuUHzA"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.207.60/
+  is http scheme: http://0.0.207.60/
+ scheme is: http
+ aURI is : http://0.0.207.60/
+  is http scheme: http://0.0.207.60/
+ writeWhenClose 
+This is the JSON file :[] 
+ Finished writing data to file 
+ 1639395396997	geckodriver	INFO	Listening on 127.0.0.1:51938
+1639395400073	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "51939" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileb52Dfg"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.202.227/
+  is http scheme: http://0.0.202.227/
+ scheme is: http
+ aURI is : http://0.0.202.227/
+  is http scheme: http://0.0.202.227/
+ scheme is: about
+ aURI is : about:blank
+  is http scheme: about:blank
+ scheme is: about
+ aURI is : about:blank
+  is http scheme: about:blank
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferencesJavaScript error: chrome://browser/content/preferences/in-content/preferences.js, line 102: TypeError: helpButton is null
+
+ scheme is: about
+ aURI is : about:profiles
+  is http scheme: about:profiles
+ scheme is: about
+ aURI is : about:profiles
+  is http scheme: about:profiles
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: http
+ aURI is : http://0.0.202.227/
+  is http scheme: http://0.0.202.227/
+ scheme is: http
+ aURI is : http://0.0.202.227/
+  is http scheme: http://0.0.202.227/
+ writeWhenClose 
+This is the JSON file :[] 
+ Finished writing data to file 
+ 1639402745486	geckodriver	INFO	Listening on 127.0.0.1:64220
+1639402748574	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "64221" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofilexWSvtc"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.250.221/
+  is http scheme: http://0.0.250.221/
+ scheme is: http
+ aURI is : http://0.0.250.221/
+  is http scheme: http://0.0.250.221/
+ writeWhenClose 
+This is the JSON file :[] 
+ Finished writing data to file 
+ 1639402803034	geckodriver	INFO	Listening on 127.0.0.1:64338
+1639402810206	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "64339" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofilerQsWya"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.251.83/
+  is http scheme: http://0.0.251.83/
+ scheme is: http
+ aURI is : http://0.0.251.83/
+  is http scheme: http://0.0.251.83/
+ writeWhenClose 
+This is the JSON file :[] 
+ Finished writing data to file 
+ 1639402902273	geckodriver	INFO	Listening on 127.0.0.1:64448
+1639402908827	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "64449" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofiledPx2Y8"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.251.193/
+  is http scheme: http://0.0.251.193/
+ scheme is: http
+ aURI is : http://0.0.251.193/
+  is http scheme: http://0.0.251.193/
+ scheme is: about
+ aURI is : about:blank
+  is http scheme: about:blank
+ scheme is: about
+ aURI is : about:blank
+  is http scheme: about:blank
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferences
+ scheme is: about
+ aURI is : about:preferences
+  is http scheme: about:preferencesJavaScript error: chrome://browser/content/preferences/in-content/preferences.js, line 102: TypeError: helpButton is null
+
+ scheme is: about
+ aURI is : about:preferences#search
+  is http scheme: about:preferences#search
+ scheme is: about
+ aURI is : about:preferences#search
+  is http scheme: about:preferences#search
+ scheme is: about
+ aURI is : about:preferences#search
+  is http scheme: about:preferences#search
+ scheme is: about
+ aURI is : about:preferences#search
+  is http scheme: about:preferences#search
+ scheme is: about
+ aURI is : about:preferences#general
+  is http scheme: about:preferences#general
+ scheme is: about
+ aURI is : about:preferences#general
+  is http scheme: about:preferences#general
+ scheme is: about
+ aURI is : about:preferences#general
+  is http scheme: about:preferences#general
+ scheme is: about
+ aURI is : about:preferences#general
+  is http scheme: about:preferences#general
+ writeWhenClose 
+This is the JSON file :[] 
+ Finished writing data to file 
+ 1639403112784	geckodriver	INFO	Listening on 127.0.0.1:64682
+1639403119383	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "64683" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileGGvWLm"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.252.171/
+  is http scheme: http://0.0.252.171/
+ scheme is: http
+ aURI is : http://0.0.252.171/
+  is http scheme: http://0.0.252.171/1639413666709	geckodriver	INFO	Listening on 127.0.0.1:65426
+1639413673886	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\COMODO\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "65427" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofilea2Y4Sk"
+console.log: resource
+console.log: file
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules/Preferences.jsm, line 61: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getComplexValue]
+
+ scheme is: http
+ aURI is : http://0.0.255.147/
+  is http scheme: http://0.0.255.147/
+ scheme is: http
+ aURI is : http://0.0.255.147/
+  is http scheme: http://0.0.255.147/

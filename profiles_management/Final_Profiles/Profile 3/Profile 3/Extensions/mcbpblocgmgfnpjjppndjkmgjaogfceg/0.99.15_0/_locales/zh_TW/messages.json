@@ -1,0 +1,488 @@
+{
+   "action_about": {
+      "description": "Popup menu command, opens window about FireShot",
+      "message": "關於..."
+   },
+   "action_api": {
+      "description": "Popup menu command, opens web page in a new tab with some info about FireShot API",
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "description": "First part of the command in the popup menu: Capture browser window and (Edit, Save, Print, etc)",
+      "message": "擷取瀏覽器視窗並"
+   },
+   "action_capture_entire": {
+      "description": "First part of the command in the popup menu: Capture entire page and (Edit, Save, Print, etc)",
+      "message": "擷取整個頁面並"
+   },
+   "action_capture_entire_lite": {
+      "description": "",
+      "message": "擷取整個頁面"
+   },
+   "action_capture_selection": {
+      "description": "First part of the command in the popup menu: Capture selection and (Edit, Save, Print, etc)",
+      "message": "擷取選擇的區域並"
+   },
+   "action_capture_selection_lite": {
+      "description": "",
+      "message": "擷取選擇的區域"
+   },
+   "action_capture_stop": {
+      "message": "停止捕捉"
+   },
+   "action_capture_tabs": {
+      "description": "",
+      "message": "擷取所有分頁並"
+   },
+   "action_capture_visible": {
+      "description": "First part of the command in the popup menu: Capture visible part and (Edit, Save, Print, etc)",
+      "message": "擷取可見部分並"
+   },
+   "action_capture_visible_lite": {
+      "description": "",
+      "message": "擷取可見部分"
+   },
+   "action_copy": {
+      "description": "Popup menu command, captures web page and places it into clipboard as bitmap",
+      "message": "複製到剪貼簿"
+   },
+   "action_edit": {
+      "description": "Popup menu command, captures web page and opens editor",
+      "message": "編輯"
+   },
+   "action_email": {
+      "description": "Popup menu command, captures web page and sends it via email",
+      "message": "以電子郵件寄送"
+   },
+   "action_enter_license": {
+      "description": "Popup menu command, opens dialog to enter the licensing information",
+      "message": "輸入授權碼"
+   },
+   "action_external": {
+      "description": "Popup menu command, captures web page and opens it in a third-party editor",
+      "message": "用外部編輯器開啟"
+   },
+   "action_install_native": {
+      "Description": "",
+      "description": "",
+      "message": "試用進階功能"
+   },
+   "action_license_info": {
+      "description": "Popup menu command, opens licensing info if FireShot is Pro",
+      "message": "授權資訊..."
+   },
+   "action_micsellaneous": {
+      "Description": "",
+      "description": "",
+      "message": "雜項"
+   },
+   "action_onenote": {
+      "description": "Popup menu command, captures web page and opens it in MS OneNote",
+      "message": "傳送至 OneNote"
+   },
+   "action_open_clipboard": {
+      "description": "Popup menu command, opens editor and captures the image from clipboard",
+      "message": "開啟剪貼簿中的圖檔"
+   },
+   "action_open_file": {
+      "description": "Popup menu command, loading file into FireShot",
+      "message": "開啟檔案並編輯"
+   },
+   "action_options": {
+      "description": "Popup menu command, opens options page",
+      "message": "選項"
+   },
+   "action_print": {
+      "description": "Popup menu command, captures web page and sends it to printer",
+      "message": "列印"
+   },
+   "action_register": {
+      "description": "Popup menu command, registering the Pro version",
+      "message": "註冊"
+   },
+   "action_resume": {
+      "description": "Popup menu command, opening editor and previous capture",
+      "message": "繼續編輯"
+   },
+   "action_save": {
+      "description": "Popup menu command, captures web page and saves it to disk as image file",
+      "message": "儲存"
+   },
+   "action_save_pdf": {
+      "description": "Popup menu command, captures web page and saves it as PDF",
+      "message": "另存為 PDF"
+   },
+   "action_save_pdf_single": {
+      "description": "",
+      "message": "儲存為單一 PDF"
+   },
+   "action_support": {
+      "description": "Popup menu command, opens web page in a new tab with the support forum",
+      "message": "支援"
+   },
+   "action_switch_pro": {
+      "description": "Popup menu command, switches FireShot into Pro mode",
+      "message": "切換至 Pro"
+   },
+   "action_switch_pro_tabs": {
+      "description": "",
+      "message": "正在啟動 Pro 的功能..."
+   },
+   "action_upload": {
+      "description": "Popup menu command, captures web page and uploads it to image hosting engine",
+      "message": "上傳"
+   },
+   "action_view_demo": {
+      "description": "Popup menu command, opens web page in a new tab with a Flash demo",
+      "message": "觀看示範"
+   },
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "捕捉完整網頁擷圖。擷取，編輯並儲存為 PDF/JPEG/GIF/PNG/BMP ，上傳，列印，傳送至 OneNote 、複製至剪貼簿或以電子郵件寄送。"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "捕捉網頁擷圖 - FireShot"
+   },
+   "captured_button_continue": {
+      "message": "繼續"
+   },
+   "captured_button_free_10_day_trial": {
+      "message": "免費10天試用"
+   },
+   "captured_button_no_credit_card": {
+      "message": "無需信用卡"
+   },
+   "captured_button_rate_dont_like": {
+      "message": "我不喜歡"
+   },
+   "captured_button_rate_later": {
+      "message": "也許以後"
+   },
+   "captured_button_rate_like": {
+      "message": "我喜歡"
+   },
+   "captured_buy_pro_button": {
+      "description": "",
+      "message": "購買 Pro"
+   },
+   "captured_checkbox_custom_page_size": {
+      "message": "自定義頁面尺寸"
+   },
+   "captured_checkbox_direct_links": {
+      "message": "直接連結"
+   },
+   "captured_checkbox_disable_text_selection": {
+      "message": "禁用文字選擇"
+   },
+   "captured_checkbox_split_to_pages": {
+      "message": "拆分到頁面"
+   },
+   "captured_checkbox_text_searchable": {
+      "message": "可搜尋文字"
+   },
+   "captured_copy_clipboard": {
+      "Description": "",
+      "description": "",
+      "message": "複製到剪貼簿"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "Description": "",
+      "description": "",
+      "message": "學習如何進行..."
+   },
+   "captured_follow_the_instructions": {
+      "message": "請按照說明安裝高級功能"
+   },
+   "captured_get_free_button": {
+      "description": "",
+      "message": "免費試用"
+   },
+   "captured_information": {
+      "message": "信息"
+   },
+   "captured_label_can_be_captured_better": {
+      "message": "使用已安裝的高級功能可以更好地捕獲此頁面"
+   },
+   "captured_label_progress_sign": {
+      "message": "馬上就好了"
+   },
+   "captured_link_get_fireshot_for": {
+      "message": "獲得FireShot"
+   },
+   "captured_link_read_more": {
+      "message": "閱讀更多"
+   },
+   "captured_link_report_problem": {
+      "message": "報告問題"
+   },
+   "captured_link_upgrade_for_extras": {
+      "message": "升級到Pro以啟用其他功能"
+   },
+   "captured_print": {
+      "Description": "",
+      "description": "",
+      "message": "列印"
+   },
+   "captured_print_button": {
+      "Description": "",
+      "description": "",
+      "message": "列印"
+   },
+   "captured_rate_button": {
+      "message": "評價FireShot"
+   },
+   "captured_rate_line1": {
+      "message": "FireShot開發需要大量個人時間"
+   },
+   "captured_rate_line2": {
+      "message": "那段時間可以花在家庭或休息上"
+   },
+   "captured_rate_line3": {
+      "message": "為了感謝我們的努力，您是否願意對FireShot進行評分？"
+   },
+   "captured_rate_line4": {
+      "message": "這將幫助人們更快地發現FireShot"
+   },
+   "captured_rate_question": {
+      "message": "您能否與我們分享，無論您是否喜歡FireShot？"
+   },
+   "captured_recommend_us": {
+      "Description": "",
+      "description": "",
+      "message": "推薦 FireShot"
+   },
+   "captured_save_as_image": {
+      "Description": "",
+      "description": "",
+      "message": "儲存為圖片"
+   },
+   "captured_save_as_image_button": {
+      "Description": "",
+      "description": "",
+      "message": "儲存為圖片"
+   },
+   "captured_save_as_pdf": {
+      "Description": "",
+      "description": "",
+      "message": "儲存為 PDF"
+   },
+   "captured_save_panel_title": {
+      "Description": "",
+      "description": "",
+      "message": "儲存擷圖"
+   },
+   "captured_saving_options": {
+      "description": "Button title to enter options to customize the saving process",
+      "message": "自訂"
+   },
+   "captured_setup_hotkeys": {
+      "Description": "",
+      "description": "",
+      "message": "設置文件名模板..."
+   },
+   "captured_success": {
+      "message": "成功！"
+   },
+   "captured_upgrade_link_1": {
+      "Description": "",
+      "description": "",
+      "message": "擷取，加入註解，以更好的方式列印和儲存，編輯，上傳，傳送至電子郵件 / OneNote 中，或者匯出到另一個程式。"
+   },
+   "captured_upgrade_link_2": {
+      "Description": "",
+      "description": "",
+      "message": "升級到 FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "Description": "",
+      "description": "",
+      "message": "我原本使用的是另一個版本的 FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "Description": "",
+      "description": "",
+      "message": "我可以找回它嗎？"
+   },
+   "enable_checkbox": {
+      "description": "Enable checkbox",
+      "message": "啟用"
+   },
+   "options_allow_infinite_scrolling": {
+      "message": "允許無限滾動頁面"
+   },
+   "options_button_apply": {
+      "description": "Options page, button caption, applies settings",
+      "message": "套用"
+   },
+   "options_button_save_close": {
+      "description": "Options page, button caption, stores settings and closes dialog",
+      "message": "儲存並關閉"
+   },
+   "options_button_setup": {
+      "description": "Options page, button caption, opens additional dialog",
+      "message": "點選以設定"
+   },
+   "options_label_and": {
+      "Description": "",
+      "description": "",
+      "message": "和"
+   },
+   "options_label_capturing": {
+      "description": "Options page, label of the Capturing section",
+      "message": "擷取"
+   },
+   "options_label_close_tab_after_saving": {
+      "description": "Checkbox to close results page after the saving is done",
+      "message": "儲存後關閉分頁"
+   },
+   "options_label_customize_saving": {
+      "description": "Title in the dialog for the group of elements to customize saving process",
+      "message": "自訂儲存程序"
+   },
+   "options_label_default_filename_template": {
+      "Description": "",
+      "description": "",
+      "message": "預設檔案命名方式："
+   },
+   "options_label_default_folder": {
+      "description": "Title to the input box for the default folder to save captures to",
+      "message": "預設輸出資料夾"
+   },
+   "options_label_default_folder_hint": {
+      "description": "Hint for the default folder input field",
+      "message": "以「下載」資料夾為起點、用於存放檔案的相對路徑，可能包含子目錄。\n絕對路徑、空路徑、含指向上層«..»的路徑會導致錯誤。"
+   },
+   "options_label_editor_options": {
+      "description": "Options page, label of the Editor options section",
+      "message": "編輯器選項"
+   },
+   "options_label_enable_context_menu": {
+      "description": "This button launches the hotkey configuration dialog",
+      "message": "將 FireShot 加入快顯功能表"
+   },
+   "options_label_file_settings": {
+      "Description": "",
+      "description": "",
+      "message": "檔案設定"
+   },
+   "options_label_fireshot_options": {
+      "description": "Options page, main header of the dialog",
+      "message": "FireShot 選項"
+   },
+   "options_label_hotkey": {
+      "description": "Options page, label of the Hotkey section",
+      "message": "快捷鍵"
+   },
+   "options_label_last_action_hotkey": {
+      "Description": "",
+      "description": "",
+      "message": "最後使用的功能"
+   },
+   "options_label_no_saveas_dialog": {
+      "description": "Checkbox to save without prompt",
+      "message": "不顯示「另存新檔」對話框"
+   },
+   "options_label_open_folder_after_saving": {
+      "description": "Checkbox to automatically open the target folder after saving is complete",
+      "message": "儲存後開啟資料夾以顯示下載的檔案"
+   },
+   "options_label_save_image_as": {
+      "Description": "",
+      "description": "",
+      "message": "圖片另存為："
+   },
+   "options_label_specify_editor_options": {
+      "description": "Options page, label",
+      "message": "指定編輯器和儲存的選項、檔案命名的偏好、樣式等"
+   },
+   "options_label_specify_hotkey": {
+      "description": "Options page, label",
+      "message": "指定用於啟動 FireShot 的組合鍵："
+   },
+   "options_label_specify_resizing_options": {
+      "description": "Options page, label",
+      "message": "指定大小調整選項和音效。"
+   },
+   "options_label_template_day": {
+      "Description": "",
+      "description": "",
+      "message": "日"
+   },
+   "options_label_template_hour": {
+      "Description": "",
+      "description": "",
+      "message": "時"
+   },
+   "options_label_template_limit_1": {
+      "Description": "",
+      "description": "",
+      "message": "檔名長度上限"
+   },
+   "options_label_template_limit_2": {
+      "Description": "",
+      "description": "",
+      "message": "字元"
+   },
+   "options_label_template_minutes": {
+      "Description": "",
+      "description": "",
+      "message": "分"
+   },
+   "options_label_template_month": {
+      "Description": "",
+      "description": "",
+      "message": "月"
+   },
+   "options_label_template_pad_1": {
+      "Description": "",
+      "description": "",
+      "message": "數字左端補"
+   },
+   "options_label_template_pad_2": {
+      "Description": "",
+      "description": "",
+      "message": "個零"
+   },
+   "options_label_template_seconds": {
+      "Description": "",
+      "description": "",
+      "message": "秒"
+   },
+   "options_label_template_title": {
+      "Description": "",
+      "description": "",
+      "message": "頁面標題"
+   },
+   "options_label_template_url": {
+      "Description": "",
+      "description": "",
+      "message": "頁面URL"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "域名"
+   },
+   "options_label_template_year": {
+      "Description": "",
+      "description": "",
+      "message": "年"
+   },
+   "options_link_filename_template_settings": {
+      "Description": "",
+      "description": "",
+      "message": "顯示檔案命名方式設定..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "Description": "",
+      "description": "",
+      "message": "隱藏檔案命名方式設定..."
+   },
+   "options_page_scrolling_speed": {
+      "message": "更改頁面滾動速度："
+   },
+   "void": {
+      "description": "this is a void entry",
+      "message": ""
+   }
+}

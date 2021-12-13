@@ -1,0 +1,488 @@
+{
+   "action_about": {
+      "description": "",
+      "message": "O..."
+   },
+   "action_api": {
+      "description": "",
+      "message": "FireShot interfejs API"
+   },
+   "action_capture_browser": {
+      "description": "",
+      "message": "Przechwyć okno przeglądarki i"
+   },
+   "action_capture_entire": {
+      "description": "",
+      "message": "Przechwyć całą stronę i"
+   },
+   "action_capture_entire_lite": {
+      "description": "",
+      "message": "Przechwyć całą stronę"
+   },
+   "action_capture_selection": {
+      "description": "",
+      "message": "Przechwyć zaznaczenie / fragment i"
+   },
+   "action_capture_selection_lite": {
+      "description": "",
+      "message": "Przechwyć zaznaczenie"
+   },
+   "action_capture_stop": {
+      "message": "Przestań przechwytywać"
+   },
+   "action_capture_tabs": {
+      "description": "",
+      "message": "Przechwyć wszystkie karty i"
+   },
+   "action_capture_visible": {
+      "description": "",
+      "message": "Przechwyć widoczną część i"
+   },
+   "action_capture_visible_lite": {
+      "description": "",
+      "message": "Przechwyć widoczną część"
+   },
+   "action_copy": {
+      "description": "",
+      "message": "Skopiuj do schowka"
+   },
+   "action_edit": {
+      "description": "",
+      "message": "Edytuj"
+   },
+   "action_email": {
+      "description": "",
+      "message": "Email"
+   },
+   "action_enter_license": {
+      "description": "",
+      "message": "Pokaż informacje o licencji"
+   },
+   "action_external": {
+      "description": "",
+      "message": "Otwórz w zewnętrznym edytorze"
+   },
+   "action_install_native": {
+      "Description": "",
+      "description": "",
+      "message": "Wypróbuj funkcje  zaawansowane"
+   },
+   "action_license_info": {
+      "description": "",
+      "message": "Informacje o licencji"
+   },
+   "action_micsellaneous": {
+      "Description": "",
+      "description": "",
+      "message": "Różne"
+   },
+   "action_onenote": {
+      "description": "",
+      "message": "Wyślij do OneNote"
+   },
+   "action_open_clipboard": {
+      "description": "",
+      "message": "Otwórz plik ze schowka"
+   },
+   "action_open_file": {
+      "description": "",
+      "message": "Otwórz plik"
+   },
+   "action_options": {
+      "description": "",
+      "message": "Opcje"
+   },
+   "action_print": {
+      "description": "",
+      "message": "Wydrukuj"
+   },
+   "action_register": {
+      "description": "",
+      "message": "Rejestracja"
+   },
+   "action_resume": {
+      "description": "",
+      "message": "Zakończ edycję"
+   },
+   "action_save": {
+      "description": "",
+      "message": "Zapisz"
+   },
+   "action_save_pdf": {
+      "description": "",
+      "message": "Zapisz jako PDF"
+   },
+   "action_save_pdf_single": {
+      "description": "",
+      "message": "Zapisz jako jednostronicowy PDF"
+   },
+   "action_support": {
+      "description": "",
+      "message": "Wsparcie"
+   },
+   "action_switch_pro": {
+      "description": "",
+      "message": "Przejdź na wersję Pro"
+   },
+   "action_switch_pro_tabs": {
+      "description": "",
+      "message": "Aktywuj wersję Pro aby kontynuować"
+   },
+   "action_upload": {
+      "description": "",
+      "message": "Wgraj plik"
+   },
+   "action_view_demo": {
+      "description": "",
+      "message": "Zobacz demo"
+   },
+   "application_description": {
+      "description": "",
+      "message": "Zrób zrzut ekranu całej strony internetowej. Przechwyć, edytuj i zapisz go  do formatu PDF/JPG/GIF/PNG, wgrywaj, drukuj i przesyłajdo OneNote, do schowka, oraz mailem."
+   },
+   "application_title": {
+      "description": "",
+      "message": "Zrób pełny, całkowity zrzut ekranu strony internetowej - FireShot"
+   },
+   "captured_button_continue": {
+      "message": "Dalej"
+   },
+   "captured_button_free_10_day_trial": {
+      "message": "Bezpłatna 10-dniowa wersja próbna"
+   },
+   "captured_button_no_credit_card": {
+      "message": "Nie wymagamy karty kredytowej"
+   },
+   "captured_button_rate_dont_like": {
+      "message": "Nie podoba mi się"
+   },
+   "captured_button_rate_later": {
+      "message": "Może później"
+   },
+   "captured_button_rate_like": {
+      "message": "Lubie to"
+   },
+   "captured_buy_pro_button": {
+      "description": "",
+      "message": "Kup Pro"
+   },
+   "captured_checkbox_custom_page_size": {
+      "message": "Niestandardowy rozmiar strony"
+   },
+   "captured_checkbox_direct_links": {
+      "message": "Bezpośrednie linki"
+   },
+   "captured_checkbox_disable_text_selection": {
+      "message": "Wyłącz zaznaczanie tekstu"
+   },
+   "captured_checkbox_split_to_pages": {
+      "message": "Podziel na strony"
+   },
+   "captured_checkbox_text_searchable": {
+      "message": "Z możliwością wyszukiwania tekstu"
+   },
+   "captured_copy_clipboard": {
+      "Description": "",
+      "description": "",
+      "message": "Skopiuj do schowka"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "Description": "",
+      "description": "",
+      "message": "Naucz się jak"
+   },
+   "captured_follow_the_instructions": {
+      "message": "Postępuj zgodnie z instrukcjami, aby zainstalować zaawansowane funkcje"
+   },
+   "captured_get_free_button": {
+      "description": "",
+      "message": "Wypróbuj za darmo"
+   },
+   "captured_information": {
+      "message": "informacja"
+   },
+   "captured_label_can_be_captured_better": {
+      "message": "Tę stronę można lepiej przechwycić dzięki zainstalowanym zaawansowanym funkcjom"
+   },
+   "captured_label_progress_sign": {
+      "message": "Prawie gotowe"
+   },
+   "captured_link_get_fireshot_for": {
+      "message": "Pobierz FireShot dla"
+   },
+   "captured_link_read_more": {
+      "message": "Czytaj więcej"
+   },
+   "captured_link_report_problem": {
+      "message": "Zgłoś problem"
+   },
+   "captured_link_upgrade_for_extras": {
+      "message": "Uaktualnij do wersji Pro, aby włączyć dodatki"
+   },
+   "captured_print": {
+      "Description": "",
+      "description": "",
+      "message": "Drukuj"
+   },
+   "captured_print_button": {
+      "Description": "",
+      "description": "",
+      "message": "Drukuj"
+   },
+   "captured_rate_button": {
+      "message": "Oceń FireShot"
+   },
+   "captured_rate_line1": {
+      "message": "Rozwój FireShot zajmuje dużo czasu"
+   },
+   "captured_rate_line2": {
+      "message": "Czas ten można spędzić z rodziną lub odpocząć"
+   },
+   "captured_rate_line3": {
+      "message": "Doceniając nasze wysiłki, czy byłbyś tak łaskawy, aby ocenić FireShot?"
+   },
+   "captured_rate_line4": {
+      "message": "Pomogłoby to ludziom szybciej odkryć FireShot"
+   },
+   "captured_rate_question": {
+      "message": "Czy mógłbyś podzielić się z nami tym, czy lubisz FireShot, czy nie?"
+   },
+   "captured_recommend_us": {
+      "Description": "",
+      "description": "",
+      "message": "Rekomenduj FireShot"
+   },
+   "captured_save_as_image": {
+      "Description": "",
+      "description": "",
+      "message": "Zapisz jako obraz"
+   },
+   "captured_save_as_image_button": {
+      "Description": "",
+      "description": "",
+      "message": "Zapisz jako obraz"
+   },
+   "captured_save_as_pdf": {
+      "Description": "",
+      "description": "",
+      "message": "Zapisz jako PDF"
+   },
+   "captured_save_panel_title": {
+      "Description": "",
+      "description": "",
+      "message": "Zapisz zrzut ekranu"
+   },
+   "captured_saving_options": {
+      "description": "",
+      "message": "Dostosuj"
+   },
+   "captured_setup_hotkeys": {
+      "Description": "",
+      "description": "",
+      "message": "Skonfiguruj szablon nazwy pliku ..."
+   },
+   "captured_success": {
+      "message": "Powodzenie!"
+   },
+   "captured_upgrade_link_1": {
+      "Description": "",
+      "description": "",
+      "message": "Przechwyć, Opatrz komentarzem, Lepiej drukuj i zapisuj,Edytuj, Wgrywaj, Przesyłaj mailem / do One Note, lub Eksportuj do innego programu"
+   },
+   "captured_upgrade_link_2": {
+      "Description": "",
+      "description": "",
+      "message": "Aktualizuj do FireShot Prᴏ"
+   },
+   "captured_upgrade_link_3": {
+      "Description": "",
+      "description": "",
+      "message": "Używałem innej wersji FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "Description": "",
+      "description": "",
+      "message": "Czy mogę wrócić?"
+   },
+   "enable_checkbox": {
+      "description": "",
+      "message": "Włącz"
+   },
+   "options_allow_infinite_scrolling": {
+      "message": "Zezwalaj na nieskończone przewijanie stron"
+   },
+   "options_button_apply": {
+      "description": "",
+      "message": "Wykonaj"
+   },
+   "options_button_save_close": {
+      "description": "",
+      "message": "Zapisz i wyjdź"
+   },
+   "options_button_setup": {
+      "description": "",
+      "message": "Kliknij aby przejść do ustawień "
+   },
+   "options_label_and": {
+      "Description": "",
+      "description": "",
+      "message": "i"
+   },
+   "options_label_capturing": {
+      "description": "",
+      "message": "Przechwytywanie"
+   },
+   "options_label_close_tab_after_saving": {
+      "description": "",
+      "message": "Zamknij karty po zapisaniu "
+   },
+   "options_label_customize_saving": {
+      "description": "",
+      "message": "Dostosuj proces zapisu"
+   },
+   "options_label_default_filename_template": {
+      "Description": "",
+      "description": "",
+      "message": "Domyślna nazwa szablonu"
+   },
+   "options_label_default_folder": {
+      "description": "",
+      "message": "Domyślny folder wyjściowy"
+   },
+   "options_label_default_folder_hint": {
+      "description": "",
+      "message": "Ścieżka do pliku w katalogu Pobrane w której przechowywany plik może zawierać podkatalogi.\nŚcieżki bezwzględne, puste ścieżki i ścieżki zawierające odsyłacze zwrotne będą powodować błąd."
+   },
+   "options_label_editor_options": {
+      "description": "",
+      "message": "Opcje edycji"
+   },
+   "options_label_enable_context_menu": {
+      "description": "",
+      "message": "Zintegruj FireShot z menu kontekstowym"
+   },
+   "options_label_file_settings": {
+      "Description": "",
+      "description": "",
+      "message": "Ustawienia pliku"
+   },
+   "options_label_fireshot_options": {
+      "description": "",
+      "message": "Opcje FireShot"
+   },
+   "options_label_hotkey": {
+      "description": "",
+      "message": "Skróty klawiszowe"
+   },
+   "options_label_last_action_hotkey": {
+      "Description": "",
+      "description": "",
+      "message": "Ostatnia aktywność"
+   },
+   "options_label_no_saveas_dialog": {
+      "description": "",
+      "message": "Nie pokazuj \"Zapisz jako\""
+   },
+   "options_label_open_folder_after_saving": {
+      "description": "",
+      "message": "Pokaż pobrane pliki w ich folderze po pobraniu"
+   },
+   "options_label_save_image_as": {
+      "Description": "",
+      "description": "",
+      "message": "Zapisz obraz jako"
+   },
+   "options_label_specify_editor_options": {
+      "description": "",
+      "message": "Ustaw opcje edycji i zapisu, preferencje nazewnictwa, style itp."
+   },
+   "options_label_specify_hotkey": {
+      "description": "",
+      "message": "Ustaw skrót klawiszowy uruchamiający FireShot"
+   },
+   "options_label_specify_resizing_options": {
+      "description": "",
+      "message": "Ustaw opcje rozmiaru i dźwięku"
+   },
+   "options_label_template_day": {
+      "Description": "",
+      "description": "",
+      "message": "Dzień"
+   },
+   "options_label_template_hour": {
+      "Description": "",
+      "description": "",
+      "message": "Godzina"
+   },
+   "options_label_template_limit_1": {
+      "Description": "",
+      "description": "",
+      "message": "Ogranicz długość nazwy pliku do"
+   },
+   "options_label_template_limit_2": {
+      "Description": "",
+      "description": "",
+      "message": "Pokaż ustawienia szablonu nazwy pliku"
+   },
+   "options_label_template_minutes": {
+      "Description": "",
+      "description": "",
+      "message": "Minuty"
+   },
+   "options_label_template_month": {
+      "Description": "",
+      "description": "",
+      "message": "Miesiąc"
+   },
+   "options_label_template_pad_1": {
+      "Description": "",
+      "description": "",
+      "message": "Numer Pada z"
+   },
+   "options_label_template_pad_2": {
+      "Description": "",
+      "description": "",
+      "message": "Zera"
+   },
+   "options_label_template_seconds": {
+      "Description": "",
+      "description": "",
+      "message": "Sekundy"
+   },
+   "options_label_template_title": {
+      "Description": "",
+      "description": "",
+      "message": "Tytuł strony"
+   },
+   "options_label_template_url": {
+      "Description": "",
+      "description": "",
+      "message": "Adres URL strony"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "Nazwa domeny"
+   },
+   "options_label_template_year": {
+      "Description": "",
+      "description": "",
+      "message": "Rok"
+   },
+   "options_link_filename_template_settings": {
+      "Description": "",
+      "description": "",
+      "message": "Pokaż ustawienia szablonu nazwy pliku"
+   },
+   "options_link_filename_template_settings_hide": {
+      "Description": "",
+      "description": "",
+      "message": "Ukryj  ustawienia szablonu nazwy pliku"
+   },
+   "options_page_scrolling_speed": {
+      "message": "Zmień prędkość przewijania strony:"
+   },
+   "void": {
+      "description": "",
+      "message": ""
+   }
+}

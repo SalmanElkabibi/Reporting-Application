@@ -1,0 +1,8 @@
+[19612:19160:1208/175108.505:WARNING:native_process_launcher.cc(174)] Can't find manifest for native messaging host com.getfireshot.api
+[19612:20468:1208/175110.555:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[19612:20468:1208/175110.555:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[19612:20468:1208/175110.557:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[19612:21892:1208/175110.557:ERROR:device_event_log_impl.cc(214)] [17:51:10.556] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un périphérique attaché au système ne fonctionne pas correctement. (0x1F)
+[19612:21892:1208/175110.558:ERROR:device_event_log_impl.cc(214)] [17:51:10.558] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un périphérique attaché au système ne fonctionne pas correctement. (0x1F)
+[19612:20468:1208/175110.567:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[19612:21892:1208/175111.121:INFO:CONSOLE(1991)] "Deprecated API for given entry type.", source: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.JA8gJ7fWuCA.es5.O/am=wFX-L-UjAADHo9uBnw2jcOAADIsjAQRAiEVWSqzhD06y_0H0hwSgr8UYDIRjHoCOUzA-MAAAAAAAAAAAAAAAAAAAALALpBgE/d=1/exm=b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BQlPJkVxFRyfi7kD4Hy6d0vhV0kQ/cb=loaded_1/m=a (1991)

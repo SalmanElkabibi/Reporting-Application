@@ -1,0 +1,133 @@
+<div class="create-account-view" id="create-account-mode">
+  <div id="response-loading" role="progressbar" style="display: none;"
+    class="mdc-linear-progress mdc-linear-progress--indeterminate" aria-label="Example Progress Bar" aria-valuemin="0"
+    aria-valuemax="1" aria-valuenow="0">
+    <div class="mdc-linear-progress__buffer">
+      <div class="mdc-linear-progress__buffer-bar"></div>
+      <div class="mdc-linear-progress__buffer-dots"></div>
+    </div>
+    <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+      <span class="mdc-linear-progress__bar-inner"></span>
+    </div>
+    <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+      <span class="mdc-linear-progress__bar-inner"></span>
+    </div>
+  </div>
+  <div class="create-account-success" style="display: none;" id="register-success">
+    <i class="material-icons create-account-success__close" id="success-close">close</i>
+    <div class="create-account-success__container">
+      <i class="material-icons create-account-success__container__icon">done</i>
+      <p class="create-account-success__container__title">{ActivationTitle}</p>
+      <p class="create-account-success__container__subtitle">{ActivationTitle2}</p>
+      <p class="create-account-success__container__subtitle">{ActivationText}</p>
+
+      <p class="create-account-success__container__warning">
+        {ActivationWarning}
+      </p>
+
+      <div class="create-account-success__container__back-button-container">
+        <button class="mdc-button mdc-button--raised" id="back-button">
+          <span class="mdc-button__label">{RegisterBackTo}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="create-account-view__container" id="register-form-container">
+    <div style="padding-left: 30px;">
+      <button class="mdc-button" id="back-login">
+        <span class="mdc-button__ripple"></span>
+        <i class="material-icons mdc-button__icon" aria-hidden="true"
+          >keyboard_arrow_left</i
+        >
+        <span class="mdc-button__label">Login instead</span>
+      </button>
+    </div>
+    <h1 style="text-align: center;">Create your Account</h1>
+    <div class="create-account-view__register-form">
+
+      <div style="margin-bottom: 15px;">
+        <label class="mdc-text-field mdc-text-field--outlined bottom-line-color(green)" id="email-field">
+          <span class="mdc-notched-outline">
+            <span class="mdc-notched-outline__leading"></span>
+            <span class="mdc-notched-outline__notch">
+              <span class="mdc-floating-label" id="email-label">Email</span>
+            </span>
+            <span class="mdc-notched-outline__trailing"></span>
+          </span>
+          <input type="email" id="email-input" class="mdc-text-field__input" aria-labelledby="email-label" required>
+
+        </label>
+        <div id="email-error" class="create-account-view__error-msg">
+          {RegisterErrorEmail}
+        </div>
+      </div>
+      <label class="mdc-text-field mdc-text-field--outlined" id="password-field">
+        <span class="mdc-notched-outline">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__notch">
+            <span class="mdc-floating-label" id="password-label">Enter a password</span>
+          </span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+        <input type="password" id="password-input" class="mdc-text-field__input" aria-labelledby="password-label"
+          required>
+      </label>
+      <div id="password-error" class="create-account-view__error-msg">
+        Password too short. Please type at least 7 characters.
+      </div>
+      <label class="mdc-text-field mdc-text-field--outlined" id="confirm-password-field">
+        <span class="mdc-notched-outline">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__notch">
+            <span class="mdc-floating-label" id="password-label">Confirm password</span>
+          </span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+        <input type="password" id="confirm-password-input" class="mdc-text-field__input"
+          aria-labelledby="password-label" required>
+      </label>
+      <div id="confirm-password-error" class="create-account-view__error-msg">
+        {RegisterErrorPasswordNotMatch}
+      </div>
+      <div class="create-account-view__policy">
+        <div class="mdc-form-field" style="line-height: 1.20em; font-size: 12px;">
+          <div class="mdc-checkbox">
+            <input type="checkbox" class="mdc-checkbox__native-control" id="policy-checkbox" />
+            <div class="mdc-checkbox__background">
+              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+              </svg>
+              <div class="mdc-checkbox__mixedmark"></div>
+            </div>
+            <div class="mdc-checkbox__ripple"></div>
+          </div>
+          <label id="policy-checkbox-label">Please confirm that you accept our
+            <span class="create-account-view__policy-link" data="/api2/pub/policy/tos">Terms of Conditions</span> and you have read our 
+            <span class="create-account-view__policy-link" data="/api2/pub/policy/pp">Privacy Policy</span> and 
+            <span class="create-account-view__policy-link" data="/api2/pub/policy/eula">EULA.</span>
+          </label>
+        </div>
+      </div>
+      <div class="create-account-view__response-error" id="response-error">
+
+      </div>
+      <div class="create-account-view__next-button">
+        <button class="mdc-button mdc-button--raised" id="next-button">
+          <span class="mdc-button__label">NEXT</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="maintenance-mode" class="maintenance-mode">
+  <i class="material-icons maintenance-mode__close" id="maintenance-mode-close-icon">close</i>
+  <div class="maintenance-mode__container">
+    <div class="maintenance-mode__icon"><i class="material-icons">build</i></div>
+    <div id="maintenance-msg" class="maintenance-mode__message">
+
+    </div>
+  </div>
+</div>

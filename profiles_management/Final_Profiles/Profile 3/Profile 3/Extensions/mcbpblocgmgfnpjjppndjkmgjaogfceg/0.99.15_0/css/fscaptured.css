@@ -1,0 +1,213 @@
+/* Single file both for Chromium and FX */
+@media (min-width: 1199px) {
+    .fsButton {width: 120px; word-wrap:break-word; white-space: normal}
+}
+
+@media (min-width: 1600px) {
+    .fsButton {width: 135px; word-wrap:break-word; white-space: normal}
+    .container {width: 1360px;}
+}
+
+div.fsButton {float: __MSG_@@bidi_end_edge__}
+
+.col-xs-6, .col-sm-8, .col-sm-4 {
+    float: __MSG_@@bidi_start_edge__;
+}
+
+#btnSendEmail > li, #menuPDFFeatures > li {text-align: __MSG_@@bidi_start_edge__;}
+
+#menuPDFFeatures label {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+body {direction: __MSG_@@bidi_dir__;} 
+.btn {border-radius: 3px;}
+
+.hiddenInitially {display:none !important}
+
+#logo {vertical-align:middle;}
+.starRating {font-size: 2em; cursor: pointer; width:1.2em;}
+.starHighlighted {color:#ffd026}
+
+#divRatingContainer {text-align: center}
+
+#divTest {
+    position: absolute; 
+    right: 180px; 
+    top: 0px;
+    display: none;
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.close { outline: 0 !important; }
+
+#divClipboardMessage {
+    position: fixed; 
+    right:10px; 
+    bottom:10px; 
+    padding: 10px 20px; 
+    background-color: green;
+}
+
+#imgResult {
+    padding:10px; 
+    width:100%; 
+    margin:auto; 
+    display:block;
+}
+
+div.row {padding-top: 10px}
+
+@media (max-width: 1199px) {
+    .fsButton {width: 100px; word-wrap:break-word; white-space: normal}
+}
+
+@media (max-width: 767px) {
+    .fsButton {width: 140px; word-wrap:break-word; white-space: normal}
+}
+
+.link1 {display:inline-block; padding-left: 5px; padding-right: 5px}
+
+.fixed {
+    position:fixed;
+}
+
+.splashIn {
+    opacity: 1 !important;
+    transition: all 0.5s ease-out;
+}
+
+@media (max-width: 767px) {
+    .fixed {
+        position:initial;
+    }    
+}
+
+#imgForPrinting {display:none;}
+
+@media print {
+    .noPrint {
+        display: none;
+    }
+
+    #imgForPrinting {
+        display: initial;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+/* #divCanBeBetterPromo {
+    position: sticky;
+    top: -1px;    
+    background-color: #2b3e50;
+    padding-top: 15px;
+    margin-top: -15px;
+    padding-bottom: 1px;
+} */
+
+#divCanBeBetterPromo {
+   display: none;
+}
+
+#divCBBMessage {
+    /* background-color: #3a5162; */
+    background-color: #1c706d;
+    font-size: 17px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#divTryAdvancedFeatures {
+    padding: 7px;
+    /* color: #333;
+    font-weight: bold; */
+}
+
+#menuPDFFeatures input {
+    vertical-align: text-bottom;
+}
+
+.mnuItemDisabled {
+    transition: all 0.3s ease-out;
+}
+
+#menuPDFFeatures li:not(#mnuPDFUpgrade) a, #menuPDFFeatures li label {
+    cursor: default;
+} 
+
+
+#divUpgradeMsg {
+    display: none; 
+    position: absolute;
+    z-index: 9999; 
+    background: repeating-linear-gradient(
+        145deg,
+        rgba(57, 68, 78, 0.8),
+        rgba(57, 68, 78, 0.8) 2px,
+        rgba(39, 46, 54, 0.8) 2px,
+        rgba(39, 46, 54, 0.8) 4px
+    );
+}
+
+#divUpgradeMsg > div {
+    width: 100%; 
+    height:100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#divUpgradeMsg > div > div {
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.38); 
+    padding:10px 10px 15px;
+}
+
+#divUpgradeMsg  a, #lnkUpgradeFromPDF {
+    color: #fff;
+    cursor: pointer;
+}
+
+#lnkUpgradeFromPDF {padding: 7px;}
+
+
+#mnuPDFUpgrade {display: none;}
+
+#mnuPDFUpgrade a {cursor: pointer; font-size: 14px; color: #fff;}
+
+
+
+/* #upgradeItem {
+    font-size: 14px;
+} */
+
+#pdfCaret {
+    display: inline;
+    padding: 5px 5px 5px 0
+}
+
+
+/*#divCBBMessage > a {    text-decoration: underline}*/
+

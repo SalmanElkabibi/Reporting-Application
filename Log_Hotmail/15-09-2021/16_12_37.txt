@@ -1,5 +1,0 @@
-15-09-2021 16:12:37 Email : salmanelkabibi@hotmail.com -- task : Login -- Status : Success
-15-09-2021 16:13:11 Email : salmanelkabibi@hotmail.com -- Task : categorize -- Status : Success 
-15-09-2021 16:13:14 Email : salmanelkabibi@hotmail.com -- Task : archive -- Status : Success 
-15-09-2021 16:13:29 Email : salmanelkabibi@hotmail.com -- Task : categorize -- Status : Success 
-15-09-2021 16:13:32 Email : salmanelkabibi@hotmail.com -- Task : archive -- Status : Success 

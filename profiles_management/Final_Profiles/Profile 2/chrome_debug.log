@@ -1,0 +1,7 @@
+[17696:21836:1208/175105.599:INFO:CONSOLE(1966)] "Deprecated API for given entry type.", source: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.JA8gJ7fWuCA.es5.O/am=wFX-L-UjAADHo9uBnw2jcOAALIsjAQRAiEVWSqzhDU6y_0H0hwSgr8UYDIRjHoCOUzA-MAAAAAAAAAAAAAAAAAAAALALpBgE/d=1/exm=b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9D1-FGyd4JQ60EVBUtZVBqpelXnDQ/cb=loaded_1/m=a (1966)
+[17696:7832:1208/175112.376:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[17696:7832:1208/175112.377:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[17696:21836:1208/175112.379:ERROR:device_event_log_impl.cc(214)] [17:51:12.378] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un périphérique attaché au système ne fonctionne pas correctement. (0x1F)
+[17696:7832:1208/175112.382:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[17696:21836:1208/175112.383:ERROR:device_event_log_impl.cc(214)] [17:51:12.382] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un périphérique attaché au système ne fonctionne pas correctement. (0x1F)
+[17696:7832:1208/175112.404:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
