@@ -1,0 +1,11 @@
+[2656:1776:1223/103106.844:INFO:CONSOLE(1949)] "Deprecated API for given entry type.", source: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.ZHV1yCgRU8k.es5.O/am=gKv8X8pHAAAcj24HfjYYCgcOwLA4EkAAhFhkpcQa_uAk-x9Ef0gA-rQYg4FwzAPQcQrGBwYAAAAAAAAAAAAAAAAAAAB2gRSD/d=1/exm=b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9AidI4ZCiHiQ7mo4_Z9T4es3XaQ4A/cb=loaded_1/m=a (1949)
+[2656:1776:1223/103107.619:INFO:CONSOLE(1)] "'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.", source:  (1)
+[2656:13120:1223/103111.513:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[2656:1776:1223/103111.513:ERROR:device_event_log_impl.cc(214)] [10:31:11.513] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un périphérique attaché au système ne fonctionne pas correctement. (0x1F)
+[2656:13120:1223/103111.513:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[2656:13120:1223/103111.514:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[2656:1776:1223/103111.514:ERROR:device_event_log_impl.cc(214)] [10:31:11.515] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un périphérique attaché au système ne fonctionne pas correctement. (0x1F)
+[2656:1776:1223/103111.515:ERROR:device_event_log_impl.cc(214)] [10:31:11.515] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un périphérique attaché au système ne fonctionne pas correctement. (0x1F)
+[2656:13120:1223/103111.525:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[2656:18064:1223/103111.738:ERROR:gcm_store_impl.cc(652)] LevelDB remove failed: NotFound: 
+[2656:21336:1223/103111.738:ERROR:mcs_client.cc(526)] GCM Update failed!

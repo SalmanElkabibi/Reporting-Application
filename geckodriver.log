@@ -20979,4 +20979,51 @@ Error when reading forceHTTPS.json file JavaScript error: resource://gre/modules
   is http scheme: http://0.0.255.147/
  scheme is: http
  aURI is : http://0.0.255.147/
-  is http scheme: http://0.0.255.147/
+  is http scheme: http://0.0.255.147/1643121740901	geckodriver	INFO	Listening on 127.0.0.1:49962
+1643122036027	geckodriver	INFO	Listening on 127.0.0.1:57472
+1643122039069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "57473" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofile0R0XIm"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1643122043352	Marionette	INFO	Listening on port 57484
+1643122043813	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643122048104	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122048361	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122048620	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122048651	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122066939	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122067197	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122067470	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122067488	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122078062	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122078325	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122078593	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122078598	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643122082048	Marionette	INFO	Stopped listening on port 57484
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1681: NS_ERROR_FILE_NOT_FOUND
+[Parent 9696, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6116, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 9696, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10544, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10544, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 9696, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18728, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18728, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[GPU 19132, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

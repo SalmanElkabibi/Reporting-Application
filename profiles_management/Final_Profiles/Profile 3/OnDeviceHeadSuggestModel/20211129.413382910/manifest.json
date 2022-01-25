@@ -1,9 +1,0 @@
-{
-  "manifest_version": 2,
-  "name": "OnDeviceHeadSuggestFR500000",
-  "version": "20211129.413382910",
-  "imageName": "image.squash",
-  "squash": true,
-  "fsType": "squashfs",
-  "isRemovable": false
-}
