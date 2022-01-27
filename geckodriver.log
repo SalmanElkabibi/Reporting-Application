@@ -21027,3 +21027,145 @@ JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.j
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1643300332680	geckodriver	INFO	Listening on 127.0.0.1:57154
+1643300335712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "57156" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofilepwYi1G"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1643300339177	Marionette	INFO	Listening on port 57163
+1643300339355	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643300343277	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300343533	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300343812	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300343836	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300362470	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300362724	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300362983	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300363006	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221643299651509%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1643300374441	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300374706	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300374975	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300374980	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300409026	geckodriver	INFO	Listening on 127.0.0.1:64725
+1643300412058	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "-headless" "--remote-debugging-port" "64726" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileEeHe6A"
+*** You are running in headless mode.
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1643300413655	Marionette	INFO	Listening on port 64734
+1643300414089	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643300418516	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300418780	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300419039	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300419054	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=accountsettings&hl=en-US&continue=https://myaccount.google.com/intro/security line 1 > eval line 2173 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=accountsettings&hl=en-US&continue=https://myaccount.google.com/intro/security line 1 > eval line 2173 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=accountsettings&hl=en-US&continue=https://myaccount.google.com/intro/security line 1 > eval line 6132 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=accountsettings&hl=en-US&continue=https://myaccount.google.com/intro/security line 1 > eval line 6132 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: /buckets/monitor/collections/changes/records?_expected=%221643299651509%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1643300436381	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300436632	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300436892	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300436907	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+JavaScript warning: https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Frecovery%2Femail%3Fcontinue%3Dhttps%3A%2F%2Fmyaccount.google.com%2Fsecurity&service=accountsettings&osid=1&rart=ANgoxcf0dG5leFN06kBQDI_ViFdDaWPvL1RQwSoVAk5p2t1jlXDXkl6ItwVZUjhmMjJNyEvqU4dLwyOSC2rIqO80--C7kPGnBw&TL=AM3QAYbyZXee_ZVblHhOOB7oPPCfebBw3FSE308jzNjsE4zqarWUAvncOlbG6cu1&flowName=GlifWebSignIn&cid=1 line 1 > eval line 3160 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Frecovery%2Femail%3Fcontinue%3Dhttps%3A%2F%2Fmyaccount.google.com%2Fsecurity&service=accountsettings&osid=1&rart=ANgoxcf0dG5leFN06kBQDI_ViFdDaWPvL1RQwSoVAk5p2t1jlXDXkl6ItwVZUjhmMjJNyEvqU4dLwyOSC2rIqO80--C7kPGnBw&TL=AM3QAYbyZXee_ZVblHhOOB7oPPCfebBw3FSE308jzNjsE4zqarWUAvncOlbG6cu1&flowName=GlifWebSignIn&cid=1 line 1 > eval line 3160 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1643300448470	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300448727	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300448996	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300449001	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300453172	Marionette	INFO	Stopped listening on port 64734
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1681: NS_ERROR_FILE_NOT_FOUND
+[Child 19596, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19596, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 13964, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10912, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10912, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6320, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6320, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1643300483507	geckodriver	INFO	Listening on 127.0.0.1:61060
+1643300486542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Comodo\\IceDragon\\icedragon.exe" "--marionette" "--remote-debugging-port" "61061" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileZSTGi0"
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1316: NS_ERROR_FILE_NOT_FOUND
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1703: TypeError: addon is null
+1643300488609	Marionette	INFO	Listening on port 61069
+1643300488674	Marionette	WARN	TLS certificate errors will be ignored for this session
+1643300492499	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300492763	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300493034	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300493053	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300510720	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300510977	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300511243	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300511259	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300521983	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300522241	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300522493	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300522497	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1643300526467	Marionette	INFO	Stopped listening on port 61069
+JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.ja!/components/nsBrowserGlue.js, line 1681: NS_ERROR_FILE_NOT_FOUND
+[Child 20836, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20836, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 20336, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19984, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19984, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 20336, Gecko_IOThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18776, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18776, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 11748, Chrome_ChildThread] WARNING: pipe error: 109: file e:/IceDragon/ID65_64/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
