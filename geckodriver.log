@@ -21169,3 +21169,20 @@ JavaScript error: jar:file:///C:/Program%20Files/Comodo/IceDragon/browser/omni.j
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1645779989420	geckodriver	INFO	Listening on 127.0.0.1:59949
+1645779992445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59950" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofilea59oiG"
+1645779993074	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SalmanELKABIBI\\AppData\\Local\\Temp\\rust_mozprofilea59oiG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59950/devtools/browser/d6f0c42a-58cd-4888-9b29-f7c970045ecc
+1645779995485	Marionette	INFO	Listening on port 59956
+1645779995582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645780010435	geckodriver	INFO	Listening on 127.0.0.1:60024
+1645780013447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60025" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileOGYLdT"
+1645780013749	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SalmanELKABIBI\\AppData\\Local\\Temp\\rust_mozprofileOGYLdT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60025/devtools/browser/b8e29000-d570-45d7-9d55-441f262e6cf3
+1645780015501	Marionette	INFO	Listening on port 60030
+1645780015583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645780021512	Marionette	INFO	Stopped listening on port 60030
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
