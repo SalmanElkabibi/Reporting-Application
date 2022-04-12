@@ -21186,3 +21186,19 @@ DevTools listening on ws://localhost:60025/devtools/browser/b8e29000-d570-45d7-9
 1645780021512	Marionette	INFO	Stopped listening on port 60030
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645788283651	geckodriver	INFO	Listening on 127.0.0.1:61257
+1645788286684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61258" "-no-remote" "-profile" "C:\\Users\\SALMAN~1\\AppData\\Local\\Temp\\rust_mozprofileuXYaN8"
+1645788287330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SalmanELKABIBI\\AppData\\Local\\Temp\\rust_mozprofileuXYaN8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61258/devtools/browser/5616c16a-d2db-48b6-8d9f-aa2c4b7d0fa0
+1645788289838	Marionette	INFO	Listening on port 61264
+1645788290336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1645788303087	Marionette	INFO	Stopped listening on port 61264
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
